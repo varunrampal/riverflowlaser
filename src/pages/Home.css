@@ -1,0 +1,384 @@
+/* Hero Section with Burgundy Background */
+.home-hero {
+  background-color: #4b0f1c;
+  width: 100%;
+  min-height: 100vh;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.hero-overlay {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1400px;
+  width: 100%;
+  margin: 0 auto;
+  flex: 1;
+  min-height: 80vh;
+  position: relative;
+  z-index: 2;
+}
+
+.hero-left {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-content {
+  text-align: left;
+  font-family: 'Segoe UI', sans-serif;
+  max-width: 500px;
+  color: #ffffff;
+}
+
+.hero-content h1 {
+  font-size: 52px;
+  line-height: 1.2;
+  margin-bottom: 30px;
+  color: #ffffff;
+}
+
+.hero-content h1 span {
+  color: #f5c542;
+}
+
+.hero-description {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.6;
+  color: #e1e1e1;
+  margin-bottom: 30px;
+}
+
+.book-btn,
+.btn,
+.book-now,
+.learn-more {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 14px 28px;
+  background: linear-gradient(145deg, #f5c542, #e0ac00);
+  color: #4b0f1c;
+  font-weight: bold;
+  font-size: 18px;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.25);
+  text-decoration: none;
+}
+
+.book-btn:hover,
+.btn:hover,
+.book-now:hover,
+.learn-more:hover {
+  background: linear-gradient(145deg, #e0ac00, #c99700);
+}
+
+.arrow-icon {
+  font-size: 20px;
+}
+
+.hero-right {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.hero-right img {
+  max-width: 100%;
+  height: auto;
+  z-index: 2;
+  position: relative;
+}
+
+.hero-pattern {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image:
+    repeating-linear-gradient(
+      -45deg,
+      rgba(255, 255, 255, 0.05),
+      rgba(255, 255, 255, 0.05) 20px,
+      transparent 20px,
+      transparent 40px
+    );
+  opacity: 1;
+  z-index: 1;
+  pointer-events: none;
+}
+
+/* SVG wave divider */
+.wave-divider {
+  position: relative;
+  width: 100%;
+  line-height: 0;
+  margin-top: -1px;
+}
+
+.nectar-shape-divider {
+  width: 100%;
+  height: 300px;
+  position: relative;
+  bottom: -1px;
+  z-index: 1;
+}
+
+/* Section Headings */
+.about-section h2,
+.services-cta h3,
+.product-text h2,
+.consultation-text h2 {
+  font-size: 32px;
+  color: #4b0f1c;
+}
+
+.product-text h4,
+.consultation-text h4,
+.about-section h4 {
+  color: #f5c542;
+  font-size: 16px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+}
+
+/* About Section */
+.about-section {
+  background-color: #ffffff;
+  text-align: center;
+  padding: 80px 20px;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.about-section p {
+  font-size: 18px;
+  color: #333;
+  max-width: 800px;
+  margin: 0 auto 40px;
+  line-height: 1.7;
+}
+
+.about-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+/* Products */
+.products-section {
+  background-color: #fff;
+  font-family: 'Segoe UI', sans-serif;
+  margin-top: 100px;
+  padding: 60px 0;
+}
+
+.products-container {
+  display: flex;
+  align-items: center;
+  flex-wrap: nowrap;
+  gap: 0;
+}
+
+.product-image {
+  flex: 1.2;
+  height: 500px;
+  background-size: cover;
+  background-position: center left;
+  background-repeat: no-repeat;
+  clip-path: ellipse(90% 100% at 0% 50%);
+  margin-left: 0;
+}
+
+.product-text {
+  flex: 1;
+  max-width: 600px;
+  padding-left: 60px;
+  text-align: left;
+}
+
+.product-text p {
+  font-size: 16px;
+  color: #555;
+  line-height: 1.6;
+  margin-bottom: 30px;
+}
+
+.products-section .btn.book-now {
+  padding: 12px 24px;
+  border-radius: 30px;
+  font-size: 16px;
+  margin: 0 auto;
+}
+
+/* Consultation */
+.consultation-section {
+  background-color: #fefefe;
+  font-family: 'Segoe UI', sans-serif;
+  padding: 100px 0;
+}
+
+.consultation-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+  gap: 60px;
+  flex-wrap: wrap;
+}
+
+.consultation-text {
+  flex: 1;
+  padding: 0 20px;
+  max-width: 600px;
+  text-align: left;
+}
+
+.consultation-text p {
+  font-size: 16px;
+  color: #555;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.consultation-image {
+  flex: 1;
+  height: 400px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 20px;
+  min-width: 300px;
+}
+
+/* Machines */
+.machines-section {
+  padding: 100px 20px;
+  background-color: #f9f9f9;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.machine-block {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 60px;
+  max-width: 1200px;
+  margin: 60px auto;
+  flex-wrap: wrap;
+}
+
+.machine-block.reverse {
+  flex-direction: row-reverse;
+}
+
+.machine-img {
+  width: 500px;
+  max-width: 100%;
+  border-radius: 20px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+}
+
+.machine-text {
+  flex: 1;
+  max-width: 500px;
+  text-align: left;
+}
+
+.machine-text h2 {
+  font-size: 32px;
+  color: #4b0f1c;
+  margin-bottom: 20px;
+}
+
+.machine-text p {
+  font-size: 16px;
+  color: #555;
+  line-height: 1.7;
+  margin-bottom: 20px;
+}
+
+/* New: ServiceBlock Accordion Style */
+.treatment-section-full {
+  margin: 80px 0;
+  padding: 0 20px;
+}
+
+.treatment-block {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 60px;
+  margin: 60px auto;
+  max-width: 1200px;
+  flex-wrap: wrap;
+}
+
+.treatment-block.reverse {
+  flex-direction: row-reverse;
+}
+
+.treatment-img {
+  width: 400px;
+  height: 400px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 20px;
+  flex-shrink: 0;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+.treatment-text {
+  max-width: 600px;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.treatment-text h3 {
+  font-size: 28px;
+  color: #4b0f1c;
+  margin-bottom: 15px;
+}
+
+.treatment-text p {
+  font-size: 16px;
+  color: #555;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.accordion-item {
+  border-top: 1px solid #ddd;
+  padding: 10px 0;
+}
+
+.accordion-title {
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 16px;
+  color: #4b0f1c;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.accordion-title span {
+  font-size: 20px;
+}
+
+.accordion-content {
+  padding: 10px 0 10px 24px;
+  font-size: 15px;
+  color: #444;
+}

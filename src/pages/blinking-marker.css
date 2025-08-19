@@ -1,0 +1,14 @@
+.blinking-marker {
+  background-color: red;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  animation: blink 1s infinite;
+  border: 2px solid white;
+  box-shadow: 0 0 10px rgba(255, 0, 0, 0.8);
+}
+
+@keyframes blink {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.3; }
+}
