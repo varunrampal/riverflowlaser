@@ -1,6 +1,6 @@
 /* Hero Section with Burgundy Background */
 .home-hero {
-  background-color: #4b0f1c;
+  background-color: #692767;
   width: 100%;
   min-height: 100vh;
   position: relative;
@@ -34,7 +34,7 @@
   text-align: left;
   font-family: 'Segoe UI', sans-serif;
   max-width: 500px;
-  color: #ffffff;
+  color: #E2D4E1;
 }
 
 .hero-content h1 {
@@ -64,8 +64,8 @@
   align-items: center;
   gap: 10px;
   padding: 14px 28px;
-  background: linear-gradient(145deg, #f5c542, #e0ac00);
-  color: #4b0f1c;
+  background: linear-gradient(145deg, #E2D4E1, #692767);
+  color: #ffffff;
   font-weight: bold;
   font-size: 18px;
   border: none;
@@ -80,7 +80,7 @@
 .btn:hover,
 .book-now:hover,
 .learn-more:hover {
-  background: linear-gradient(145deg, #e0ac00, #c99700);
+  background: linear-gradient(145deg, #692767, #E2D4E1);
 }
 
 .arrow-icon {
@@ -141,7 +141,7 @@
 .product-text h2,
 .consultation-text h2 {
   font-size: 32px;
-  color: #4b0f1c;
+  color: #692767;
 }
 
 .product-text h4,
@@ -299,7 +299,7 @@
 
 .machine-text h2 {
   font-size: 32px;
-  color: #4b0f1c;
+  color: #692767;
   margin-bottom: 20px;
 }
 
@@ -347,7 +347,7 @@
 
 .treatment-text h3 {
   font-size: 28px;
-  color: #4b0f1c;
+  color: #692767;
   margin-bottom: 15px;
 }
 
@@ -367,7 +367,7 @@
   cursor: pointer;
   font-weight: bold;
   font-size: 16px;
-  color: #4b0f1c;
+  color: #692767;
   display: flex;
   align-items: center;
   gap: 8px;

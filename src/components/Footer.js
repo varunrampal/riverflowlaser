@@ -8,13 +8,13 @@ const Footer = () => {
     <footer className="site-footer">
       <div className="footer-content">
         <div className="footer-column logo-column">
-          <img src={logo} alt="Riverstone Laser Logo" className="footer-logo" />
+          <img src={logo} alt="RiverFlow Laser Logo" className="footer-logo" />
         </div>
 
         <div className="footer-column">
           <h4>About Us</h4>
           <p>
-            Riverstone Laser is your trusted destination for advanced skincare solutions.
+            RiverFlow Laser is your trusted destination for advanced skincare solutions.
             We offer state-of-the-art treatments using certified technology to help you feel radiant and confident.
           </p>
         </div>
@@ -53,7 +53,7 @@ const Footer = () => {
 
       <div className="footer-bottom">
         <p className="women-only">Women Only Clinic</p>
-        <p>© 2025 River Stone Laser and Skin Care Inc.</p>
+        <p>© 2025 RiverFlow Laser and Skin Care Inc.</p>
       </div>
     </footer>
   );

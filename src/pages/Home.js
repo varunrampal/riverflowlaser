@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import './Home.css';
-import rightImage from '../assets/imageedit_2_9792492529-1024x735.png';
+import rightImage from '../assets/logo.png';
 import { FaArrowRight } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
 import { FaInfoCircle, FaCalendarCheck } from 'react-icons/fa';
@@ -59,7 +59,7 @@ const Home = () => {
               </h1>
 
               <p className="hero-description">
-                At Riverstone Laser, we believe every individual deserves to shine. Our experienced team offers luxurious skincare solutions designed to deliver real, lasting results — because you’re not just glowing, you’re truly unforgettable.
+                At RiverFlow Laser, we believe every individual deserves to shine. Our experienced team offers luxurious skincare solutions designed to deliver real, lasting results — because you’re not just glowing, you’re truly unforgettable.
               </p>
 
               <a
@@ -241,7 +241,7 @@ const Home = () => {
             ></div>
             <div className="product-text">
               <h4>PRODUCTS</h4>
-              <h2>We use certified skincare products at Riverstone Laser</h2>
+              <h2>We use certified skincare products at RiverFlow Laser</h2>
               <p>
                 Our top-rated products range from leading skincare brands to help target specific skin
                 concerns and revitalize your look.

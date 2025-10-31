@@ -40,7 +40,7 @@ const Services = () => {
       <div className="services-banner" style={{ backgroundImage: `url(${bannerImage})` }}>
         <div className="services-overlay-dark">
           <div className="services-content centered">
-            <h1>Riverstone Laser</h1>
+            <h1>RiverFlow Laser</h1>
             <p>Your source for the finest skin treatments</p>
             <p className="sub">
               Confidence begins with self-care. Experience tailored skincare designed to make you feel radiant and renewed.
@@ -62,7 +62,7 @@ const Services = () => {
       <section className="services-intro">
         <h2>It’s your skin. Your body. Be proud of it.</h2>
         <p>
-          At Riverstone Laser, we provide innovative treatments including laser hair removal,
+          At RiverFlow Laser, we provide innovative treatments including laser hair removal,
           skin revitalization, and body contouring. Our mission is to help you feel confident
           and beautiful in your own skin through professional, personalized care.
         </p>

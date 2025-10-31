@@ -15,7 +15,7 @@
 }
 
 .testimonials-overlay-dark {
-  background: rgba(75, 15, 28, 0.85); /* Burgundy overlay */
+  background: #692767; /* Burgundy overlay */
   width: 100%;
   height: 100%;
   display: flex;
@@ -68,7 +68,7 @@
 
 .testimonial-intro h2 {
   font-size: 34px;
-  color: #4b0f1c;
+  color: #692767;
   margin-bottom: 16px;
 }
 
@@ -81,7 +81,7 @@
 
 .testimonial-subheading {
   font-size: 28px;
-  color: #4b0f1c;
+  color: #692767;
   margin-top: 10px;
 }
 
@@ -99,7 +99,7 @@
 }
 
 .testimonial-slide {
-  background: #4b0f1c;
+  background: #692767;
   color: white;
   border-radius: 12px;
   padding: 30px 25px 50px;
@@ -117,7 +117,7 @@
   transform: translateX(-50%);
   border-left: 8px solid transparent;
   border-right: 8px solid transparent;
-  border-top: 10px solid #4b0f1c;
+  border-top: 10px solid #692767;
 }
 
 .testimonial-text {
@@ -141,7 +141,7 @@
 }
 
 .initial-circle {
-  background-color: #4b0f1c;
+  background-color: #692767;
   color: white;
   font-weight: bold;
   width: 42px;
@@ -185,10 +185,10 @@
 }
 
 .swiper-pagination-bullet {
-  background-color: #4b0f1c;
+  background-color: #692767;
   opacity: 1;
   margin: 0 6px;
 }
 .swiper-pagination-bullet-active {
-  background-color: #4b0f1c;
+  background-color: #692767;
 }

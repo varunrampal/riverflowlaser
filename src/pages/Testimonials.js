@@ -15,7 +15,7 @@ const Testimonials = () => {
         <div className="testimonials-overlay-dark">
           <div className="testimonials-content centered">
             <h1>Client Testimonials</h1>
-            <p>Words from those who trusted Riverstone Laser for radiant results.</p>
+            <p>Words from those who trusted RiverFlow Laser for radiant results.</p>
           </div>
         </div>
         <div className="wave-divider">
@@ -34,7 +34,7 @@ const Testimonials = () => {
         <h2>Testimonials</h2>
         <p>
           We are honored to share with you our growing list of satisfied clients. Check out client
-          testimonials and see for yourself why everyone’s buzzing about <strong>Riverstone Laser</strong>.
+          testimonials and see for yourself why everyone’s buzzing about <strong>RiverFlow Laser</strong>.
         </p>
         <h3 className="testimonial-subheading">What Our Clients Are Saying</h3>
       </section>

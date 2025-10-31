@@ -1,5 +1,5 @@
 .site-footer {
-  background-color: #4b0f1c;
+  background-color: #692767;
   color: white;
   padding: 60px 20px 30px;
   font-family: 'Segoe UI', sans-serif;
@@ -22,7 +22,7 @@
 .footer-column h4 {
   font-size: 20px;
   margin-bottom: 16px;
-  color: #f3c773;
+  color: #E4D6E3;
 }
 
 .footer-column p,
@@ -65,7 +65,7 @@
 
 .women-only {
   font-weight: bold;
-  color: #f3c773;
+  color: #E4D6E3;
   font-size: 16px;
   margin-bottom: 8px;
 }

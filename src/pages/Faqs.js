@@ -15,7 +15,7 @@ const Faqs = () => {
         <div className="faqs-overlay-dark">
           <div className="faqs-content centered">
             <h1>Frequently Asked Questions</h1>
-            <p>Answers to common questions about Riverstone Laser services and care.</p>
+            <p>Answers to common questions about RiverFlow Laser services and care.</p>
           </div>
         </div>
         <div className="wave-divider">

@@ -14,7 +14,7 @@ body, html {
   transition: background-color 0.3s ease, box-shadow 0.3s ease;
 }
 .custom-header.scrolled {
-  background-color: #4b0f1c;
+  background-color: #692767;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
 
@@ -63,7 +63,7 @@ body, html {
   bottom: -4px;
   width: 100%;
   height: 2px;
-  background-color: #f3c773;
+  background-color: #E4D6E3;
   transform: scaleX(0);
   transition: transform 0.3s ease;
   transform-origin: left;
@@ -77,8 +77,8 @@ body, html {
 /* Phone number */
 .phone-number a {
   background-color: rgba(255, 255, 255, 0.1);
-  color: #f3c773;
-  border: 2px solid #f3c773;
+  color: #E4D6E3;
+  border: 2px solid #E4D6E3;
   padding: 10px 20px;
   border-radius: 30px;
   font-weight: bold;
@@ -88,7 +88,7 @@ body, html {
 }
 
 .phone-number a:hover {
-  background-color: #f3c773;
+  background-color: #E4D6E3;
   color: #000;
 }
 

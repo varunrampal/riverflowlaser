@@ -13,7 +13,7 @@ const Team = () => {
             <h1>Forged from Genuine Need</h1>
             <p>Jade Clinics was built upon a passion for hair-free living.</p>
             <p className="sub">
-              At Riverstone Laser and Skin Care Inc, our journey is rooted in care and client-first innovation.
+              At RiverFlow Laser and Skin Care Inc, our journey is rooted in care and client-first innovation.
             </p>
           </div>
         </div>
@@ -34,7 +34,7 @@ const Team = () => {
           <h2>Meet the Team</h2>
           <p className="desc">
             Our Dream TEAM! <br />
-            At The Riverstone Laser and Skin Care Inc, our team is respected for their experience and passion for skin health and offering laser, cosmetic and injectable treatments to patients for naturally beautiful results.
+            At The RiverFlow Laser and Skin Care Inc, our team is respected for their experience and passion for skin health and offering laser, cosmetic and injectable treatments to patients for naturally beautiful results.
             <br /><br />
             We welcome every patient with warmth and knowledge you’ll feel comfortable and confident in.
           </p>
